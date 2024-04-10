@@ -1,0 +1,58 @@
+
+
+.calendar-container {
+    display: flex;
+  }
+  
+  .hours, .schedule {
+    flex: 1;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .progress-bar {
+    width: 90%;
+    height: 10px;
+    background-color: #1da13b;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    width: 0; 
+    background-color: #39a93d;
+    border-radius: 5px;
+}
+
+.calendar {
+    max-width: 75rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.hour {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+

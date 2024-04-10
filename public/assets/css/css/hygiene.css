@@ -1,0 +1,109 @@
+.container {
+    position: relative;
+    z-index: 2;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.stair-button {
+    margin: 20px 0;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.stair-button:hover {
+    transform: scale(1.1);
+}
+.card {
+    margin-top: 30px; 
+    border: 20%;
+    background-color:#6287a2;
+   
+}
+.nav-item {
+    position: relative;
+}
+
+.nav-text {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    bottom: 2px;
+    color: #fff; 
+}
+.card  {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    box-sizing: border-box;
+}
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 4;
+}
+.calendar {
+    max-width: 75rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.hour {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+.event {
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.Lavado_Dental {
+    background-color: #6287a2;
+    
+}
+.Muda {
+    background-color: #f79256;
+}
+.Baño {
+    background-color: #af7ead;
+}
+.event-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+}
+.event-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.event-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.event-form button {
+    padding: 5px 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

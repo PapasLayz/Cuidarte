@@ -1,0 +1,6 @@
+button.nttf {
+    position: fixed;
+    top: 10px; /* Ajusta este valor según tus necesidades */
+    right: 10px; /* Ajusta este valor según tus necesidades */
+    z-index: 1000; /* Un valor alto para asegurarse de que el botón esté encima de otros elementos */
+}
